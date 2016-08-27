@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Datathon 2016 - GW Gurus</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="res/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+      <img src= "https://data.virginia.gov/media/4915/logo_datavirginia.png" alt="datathon" height="140" width="200">         <b><font size="6"> <font color="DarkGreen">Datathon 2016 - Governor's Workforce Innovation </font></font> </b>
+        <p>  <i> <font color="DarkSlateGray"> What are the jobs trends and emerging sectors in my hometown? Do I have the skill set and education to fill these emerging opportunities? What are the up and coming sectors or areas in the new Virginia economy?</i></font></p></img>
+
+
+        <p><b>Explore</b> the below graphics for a visual look at the current and future state of the new Virginia economy. <b> Compare</b> the availability of Virginia jobs by location, skill set, and education. <b> Discover</b> the booming sectors in the Virginia economy: Technology/Consulting, Health and Finance. <b> Observe </b> the geographic regions in search of talented human resources. </p>
+        <!--Tableau Location Map 
+           <script type='text/javascript' src='https://10az.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 800px; height: 200px;'><object class='tableauViz' width='800' height='200' style='display:none;'><param name='host_url' value='https%3A%2F%2F10az.online.tableau.com%2F' /> <param name='site_root' value='&#47;t&#47;gwdatascience2016' /><param name='name' value='2016JobMap_0&#47;jobmap2016' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showShareOptions' value='true' /></object></div> -->
+
+          
+<!--Tableau all graphs-->
+          <div class='tableauPlaceholder' id='viz1472228723513' style='position: relative'><noscript><a href='#'><img alt='Human Capital Supply &amp; Demand in Virginia by Location, Sector and Qualifications (2010-2015) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2016_GWU_final2&#47;DatathonStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Datathon2016_GWU_final2&#47;DatathonStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon2016_GWU_final2&#47;DatathonStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1472228723513');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    
+
+        <p><font size="3"><b>Solution/Value Proposition:</b>The solution focused on providing interactive visuals to display the job industries and skill sets that are currently in demand and trending in the Virginia economy. While there is a large amount of data on Virginia's job market openings, there is a need for clear, concise information in order to provide consumers with actionable insight in their decision making.</font></p>
+
+        <p><font size="3"><b>Discovery and Analysis:</b> The last five years of data indicate that the booming sectors of the new Virginia economy include Technology/Consulting, Health, Finance, Food/Restaurant and the Retail Industries. While the clear trend is shifting towards STEM fields such as technology or engineering, demand remains consistent for other skill sets such customer service and sales focused positions. Job availability trends concentrate in the North and Northeastern portions of Virginia. In regards to education, Associate and Bachelors degree earners may earn their education in more geographically diverse areas than just the Northeast. While many do earn their degrees in the Northeastern cities of Virginia such as Arlington and Fairfax, Richmond, Virginia Beach, and Norfolk produce several higher education graduates as well.</font></p>
+
+        <p><font size="3"><b>Technical Execution:</b> Technical decisions included utilizing bootstrap for a quick front end application solution and Tableau for data analysis and visualization. Future technical needs are to connect the data to be real time to allow more up to date and accurate information.</font></p>
+
+        <p><font size="3"><b>Data Sources:</b> Job Postings 2010 -- 2015 (Part 1), Job Postings 2010 -- 2015 (Part 3) and Virginia Job Postings 2016 (Shared by VirginiaOpenData), Higher Education (Shared by asmith_VEDP).</font></p>
+
+        <p><font size="3"><b>Data Set Reasoning:</b> Based on the human capital supply and demand focus in the above visuals, selection was based on strong data sources for qualifications, location, and sector observations.</font></p>
+
+        <p><font size="3"><b>Customer Segment and Validation:</b> The team conducted interviews with a handle of current job seekers, with a particular focus on those selecting which industry or skill set to focus on as they approach a graduation date. Above visuals and observations will be tested amongst that same consumer segment to test their usefulness to the consumer segment.
+
+         <a href="newpage.html">Sample questionaire </a> </font></p>
+
+    </div>
+      </div>
+      </div>
+
+    
+      <!-- Example row of columns -->
+      
+<!--Heading and heading graph not needed at this time
+<div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Tab through the above visuals to compare the availability of Virginia jobs by location, skill set, and education</h2>
+          <p>View skills and requirements for jobs in my area</p> -->
+
+          <!--<p><a class="btn btn-default" href="newpage.html" role="button">View details &raquo;</a></p> -->
+          
+<!--Tableau User story -->
+
+        
+       
+
+      <hr>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="res/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="res/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
